@@ -1,4 +1,4 @@
-package com.pixelstudio.crudapp;
+package com.zafir.crudapp;
 
 import org.springframework.stereotype.Component;
 

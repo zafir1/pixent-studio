@@ -1,4 +1,4 @@
-package com.pixelstudio.crudapp;
+package com.zafir.crudapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

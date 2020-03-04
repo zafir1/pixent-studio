@@ -1,7 +1,7 @@
-package com.pixelstudio.crudapp.controller.blog;
+package com.zafir.crudapp.controller.blog;
 
-import com.pixelstudio.crudapp.model.Blog;
-import com.pixelstudio.crudapp.repository.BlogRepositoty;
+import com.zafir.crudapp.model.Blog;
+import com.zafir.crudapp.repository.BlogRepositoty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

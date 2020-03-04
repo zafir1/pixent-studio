@@ -1,4 +1,4 @@
-package com.pixelstudio.crudapp.controller;
+package com.zafir.crudapp.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

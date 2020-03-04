@@ -1,4 +1,4 @@
-package com.pixelstudio.crudapp.model;
+package com.zafir.crudapp.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;

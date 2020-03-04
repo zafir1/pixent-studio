@@ -1,4 +1,4 @@
-package com.pixelstudio.crudapp.model;
+package com.zafir.crudapp.model;
 
 import lombok.Getter;
 import lombok.Setter;
