@@ -34,11 +34,13 @@ public class BlogController {
     @PutMapping("/blogs/{id}")
     public Blog updateBlog(@PathVariable(value = "id")Long id, @Valid @RequestBody Blog blog) throws Exception{
         Blog b = getBlogById(id);
+        b.setUserid(blog.getUserid());
         b.setTitle(blog.getTitle());
         b.setContent(blog.getContent());
         return blogRepositoty.save(b);
     }
 
+    @DeleteMapping("/blogs/{id}")
     public ResponseEntity<?> deleteBlog(@PathVariable(value = "id")Long id) throws Exception{
         blogRepositoty.delete(getBlogById(id));
         return ResponseEntity.ok().build();
